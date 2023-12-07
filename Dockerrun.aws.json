@@ -3,25 +3,25 @@
     "containerDefinitions": [
         {
             "name": "client",
-            "image": "soroush123/multi-client",
+            "image": "rallycoding/multi-client",
             "hostname": "client",
             "essential": false
         },
         {
             "name": "server",
-            "image": "soroush123/multi-server",
+            "image": "rallycoding/multi-server",
             "hostname": "api",
             "essential": false
         },
         {
             "name": "worker",
-            "image": "soroush123/multi-worker",
+            "image": "rallycoding/multi-worker",
             "hostname": "worker",
             "essential": false
         },
         {
             "name": "nginx",
-            "image": "soroush123/multi-nginx",
+            "image": "rallycoding/multi-nginx",
             "hostname": "nginx",
             "essential": true,
             "portMappings": [
